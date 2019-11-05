@@ -1,0 +1,26 @@
+{
+  "name": "newtongitdemo",
+  "version": "1.0.0",
+  "description": "nodejs demo for newton school",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prisar/ghdemo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "demo"
+  ],
+  "author": "pritimay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prisar/ghdemo/issues"
+  },
+  "homepage": "https://github.com/prisar/ghdemo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
