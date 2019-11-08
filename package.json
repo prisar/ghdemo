@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/prisar/ghdemo#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "request-promise": "^4.2.5"
   }
 }
