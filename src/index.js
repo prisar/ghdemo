@@ -1,14 +1,53 @@
-const express = require('express');
-const app = express()
-const port = 3000
-var bodyParser = require('body-parser')
+import { ok } from "assert";
+import { userInfo } from "os";
 
-app.use(bodyParser.json()) // middleware
 
-app.get('/', (req, res) => res.send('Hello World!'))
+let arr = [1, 2, 3];
 
-app.get('/users', (req, res) => res.send('1. pritimay, 2. ram, ...'))
+arr = arr.forEach(x => {
+    x = x + 2;
+    console.log(x);
+});
 
-app.post('/users', (req, res) => res.send(JSON.stringify(req.body)))
+// ...arr
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+const user = {
+    username: 'ram',
+    firstname: 'ram',
+    lastname: 'babu',
+};
+
+// destructing
+const { username } = user;
+
+
+// console.log(arr);
+
+// IIFE - immidiately invoked function Exec
+
+(function (a, b) {
+    return a+b;
+
+})(1, 2);
+
+(function () {
+    return a+b;
+
+})();
+
+200 -> ok
+404 -> 
+403 -> UnAuthorized, 
+500 -> Internal Server Error
+
+
+301 -> 
+try {
+    //djdjd
+
+} catch (ex) {
+    APIError(ex.message);
+}
+
+ES6
+
